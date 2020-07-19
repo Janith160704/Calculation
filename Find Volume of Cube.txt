@@ -1,0 +1,17 @@
+class Volume_Cube
+{
+   public static void main(String args[]) 
+    {   
+     double Length =Double.parseDouble(args[0]);
+	
+ 
+     double Width =Double.parseDouble(args[1]);
+     double Height =Double.parseDouble(args[2]);
+   
+ 
+     double  volume=(Length * Width * Height );
+ 
+      System.out.println("Volume of Cuber is: " +volume);
+      
+    }
+}

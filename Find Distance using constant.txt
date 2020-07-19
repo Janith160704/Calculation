@@ -1,0 +1,13 @@
+class distance_Con
+{
+    public static void main (String args[])
+    {
+        final int miles = 26;
+        final int yards = 385;
+        double kilometer;
+        double km_mile= miles * 1.609;
+        double km_yard = yards * 1760;
+        System.out.println ("Miles in kilometers = " + km_mile);
+        System.out.println ("Yards in kilometers = " + km_yard);
+    }
+}

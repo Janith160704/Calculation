@@ -1,0 +1,11 @@
+class Temp
+{
+    public static void main(String [] args)
+    {
+        String str1 = args[0];
+        int celcius = Integer.parseInt(str1);
+        double tempinF = (1.8* celcius + 32);
+        System.out.println(tempinF);
+
+    }
+}
